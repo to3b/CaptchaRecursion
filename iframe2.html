@@ -1,0 +1,150 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0" />
+<main id="main">
+    
+    <div>
+        <p>Select all the images with</p>
+        <h1>crosswalks</h1>
+        <p>Click verify once there are none left.</p>
+    </div>
+
+    <div>
+        <button id="button" onclick="clicked()" style="background-image: url(https://source.unsplash.com/random/100x100)"></button>
+        <button id="button2" onclick="clicked2()" style="background-image: url(https://source.unsplash.com/random/99x99)"></button>
+        <button id="button3" onclick="clicked3()" style="background-image: url(https://source.unsplash.com/random/101x101)"></button>
+        <br />
+        <button id="button4" onclick="clicked4()" style="background-image: url(https://source.unsplash.com/random/102x102)"></button>
+        <button id="button5" onclick="clicked5()" style="background-image: url(https://source.unsplash.com/random/98x98)"></button>
+        <button id="button6" onclick="clicked6()" style="background-image: url(https://source.unsplash.com/random/97x97)"></button>
+        <br />
+        <button id="button7" onclick="clicked7()" style="background-image: url(https://source.unsplash.com/random/96x96)"></button>
+        <button id="button8" onclick="clicked8()" style="background-image: url(https://source.unsplash.com/random/103x103)"></button>
+        <button id="button9" onclick="clicked9()" style="background-image: url(https://source.unsplash.com/random/104x104)"></button>
+    </div>
+
+    <div>
+        <span class="material-symbols-outlined">
+            redo
+        </span>
+        <span class="material-symbols-rounded">
+            headphones
+        </span>
+        <span class="material-symbols-sharp">
+            info
+        </span>
+        <button onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')">
+            VERIFY
+        </button>
+    </div>
+
+</main>
+
+<style>
+    main {
+        background-color: white;
+    }
+    html {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 5px;
+    }
+
+    div:nth-child(2) button {
+        height: 100px;
+        width: 100px;
+        margin-top: 5px;
+        border:none;
+        overflow: hidden;
+        background-size: contain;
+    }
+
+    div:nth-child(2) button:active {
+        opacity: 50%;
+    }
+
+    div:nth-child(3) button {
+        height: 35px;
+        width: 70px;
+        border: none;
+        background: #2E81EA;
+        color: white;
+        font-size: 11px;
+        margin-left: 154px;
+    }
+
+    div:nth-child(3) span {
+        vertical-align: middle;
+        user-select: none;
+    }
+
+    div:nth-child(1) {
+        background-color: #2E81EA;
+        width: 290px;
+        font-size: 12px;
+        color: white;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    div:nth-child(3) {
+        margin-top: 5px;
+        padding-top: 5px;
+        border-top: 1px solid lightgrey;
+        width:fit-content;
+    }
+    iframe {
+        scale: 0.2;
+        transform-origin: 0 0;
+        position: relative;
+    }
+</style>
+
+<script>
+    var targetElement = document.body;
+    function clicked() {
+    // Create a new div element
+    const newDiv = document.getElementById("button");
+    newDiv.innerHTML = '<iframe src="iframe.html" width="344px" height="482px"><style>';
+    }
+    function clicked2() {
+    // Create a new div element
+    const newDiv2 = document.getElementById("button2");
+    newDiv2.innerHTML = '<iframe src="iframe.html" width="344px" height="482px"><style>';
+    }
+    function clicked3() {
+    // Create a new div element
+    const newDiv3 = document.getElementById("button3");
+    newDiv3.innerHTML = '<iframe src="iframe.html" width="344px" height="482px"><style>';
+    }
+    function clicked4() {
+    // Create a new div element
+    const newDiv4 = document.getElementById("button4");
+    newDiv4.innerHTML = '<iframe src="iframe.html" width="344px" height="482px"><style>';
+    }
+    function clicked5() {
+    // Create a new div element
+    const newDiv5 = document.getElementById("button5");
+    newDiv5.innerHTML = '<iframe src="iframe.html" width="344px" height="482px"><style>';
+    }
+    function clicked6() {
+    // Create a new div element
+    const newDiv6 = document.getElementById("button6");
+    newDiv6.innerHTML = '<iframe src="iframe.html" width="344px" height="482px"><style>';
+    }
+    function clicked7() {
+    // Create a new div element
+    const newDiv7 = document.getElementById("button7");
+    newDiv7.innerHTML = '<iframe src="iframe.html" width="344px" height="482px"><style>';
+    }
+    function clicked8() {
+    // Create a new div element
+    const newDiv8 = document.getElementById("button8");
+    newDiv8.innerHTML = '<iframe src="iframe.html" width="344px" height="482px"><style>';
+    }
+    function clicked9() {
+    // Create a new div element
+    const newDiv9 = document.getElementById("button9");
+    newDiv9.innerHTML = '<iframe src="iframe.html" width="344px" height="482px"><style>';
+    }
+    </script>
